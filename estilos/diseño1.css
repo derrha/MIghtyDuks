@@ -1,0 +1,85 @@
+/*     GENERAL       */
+*{
+    font-family: 'Akshar', sans-serif;
+}
+html body{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*     HEADER       */
+
+.container-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:linear-gradient(rgba(0, 5, 7, 0.36),rgba(0, 5, 7, 0.36)), url("../img/design1_image1.jpg") ;
+    background-position: 0% 20%;
+    height: 200px;
+}
+
+.container-header h1{
+    color: white;
+    text-shadow: 0px 0px 5px black ;
+    font-size: 50px;
+    align-self: flex-start;
+    padding-left: 50px;
+
+}
+
+.header-2{
+    background-color: black;
+    color: white;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*   NAVBAR    */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.navbar div{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*        NOTICIAS   */
+.news{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 12rem;
+    right: 20rem;
+}
+
+.news div{
+    margin: 50px;
+}
+
+/*         LOGO           */
+
+#logo{
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    right: 25rem;
+    top: 7.2rem;
+    box-shadow: 0px 0px 20px rgb(49, 49, 49);
+}
+
+.navbar-hidden{
+    display: none;
+}
